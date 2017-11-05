@@ -2,8 +2,8 @@
 A Simple calculator made using javascript and CSS.
 
 # Instructions
-prerequisites : An updated web browser
-Open calculator.html
+1. prerequisites : An updated web browser
+2. Open calculator.html
 
 # files
 1) bg.jpg (background image)
