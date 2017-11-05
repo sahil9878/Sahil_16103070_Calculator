@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Calculator</title>
+	<link href = "./style.css" type ="text/css" rel= "stylesheet" />
+
+</head>
+<body>
+	<center><h1 id="title">Calculator</h1></center>
+	<div id="keypad">
+		<table border="0" class = "center">
+			<tr>
+				<td colspan="4" id = "calc"></td>
+			</tr>
+
+			<tr>
+				<td colspan="4" id="display-bar" height="35px"></td>
+			</tr>
+			<tr>
+				<td colspan="1" id = "name"> &nbsp CALC</td>
+				<td colspan="1" id = "name2">by Sahil</td>
+				<td><input class = "buttondisp2 fx" onclick="window.location.href='https://www.amazon.in/gp/product/B0034BAQS8/'" type = "button" value = "fx"</td>
+				<td ><input id = "buttondisp3" onclick = "clearDisplay()" type = "button" value = "C"</td>
+			</tr>
+			<tr>
+				<td><input class = "buttondisp" onclick="display(7)" type="button" value="7"></td>
+				<td><input class = "buttondisp" onclick="display(8)" type="button" value="8"></td>
+				<td><input class = "buttondisp" onclick="display(9)" type="button" value="9"></td>
+				<td><input class = "buttondisp2" onclick="display('/')" type="button" value="/"></td>
+			</tr>
+			<tr>
+				<td><input class = "buttondisp" onclick="display(4)" type="button" value="4"></td>
+				<td><input class = "buttondisp" onclick="display(5)" type="button" value="5"></td>
+				<td><input class = "buttondisp" onclick="display(6)" type="button" value="6"></td>
+				<td><input class = "buttondisp2" onclick="display('*')" type="button" value="*"></td>
+			</tr>
+			<tr>
+				<td><input class = "buttondisp" onclick="display(1)" type="button" value="1"></td>
+				<td><input class = "buttondisp" onclick="display(2)" type="button" value="2"></td>
+				<td><input class = "buttondisp" onclick="display(3)" type="button" value="3"></td>
+				<td><input class = "buttondisp2" onclick="display('-')" type="button" value="-"></td>
+			</tr>
+			<tr>
+			    <td><input class = "buttondisp2" onclick="display('.')" type="button" value="."></td>
+				<td><input class = "buttondisp" onclick="display(0)" type="button" value="0"></td>
+				<td><input class = "buttondisp2" onclick="calculate()" type="button" value="="></td>
+				<td><input class = "buttondisp2" onclick="display('+')" type="button" value="+"></td>
+			</tr>
+		</table>
+	</div>
+	<script src="script.js" type="text/javascript">
+	</script>
+</body>
+</html>

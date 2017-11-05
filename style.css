@@ -1,0 +1,103 @@
+
+td, th{
+	padding:0px;
+	height: 50px;
+	width: 90px;
+	border-collapse: collapse;
+}
+#title{
+	color: red;
+	font-size : 50px;
+}
+body  
+{
+       background-image: url(" bg.jpg");
+} 
+table {
+	margin =: 0px auto;
+	position: static;
+	border-spacing: 12px;
+	background : #dbdbdb;
+  
+    border-radius: 8px;
+  
+}
+.fx{
+
+background-color:gold !important;
+}
+.buttondisp:hover, .buttondisp2:hover
+{
+background-image:none !important;
+background-color:#000000 !important;
+color : white;
+}
+#buttondisp3:hover{
+background-image:none !important;
+background-color:#ff4500 !important;
+color : white;
+}
+
+
+.buttondisp{
+	height : 50px;
+	alignment : stretch;
+	width: 90px;
+	border: 2px solid;
+    border-radius: 8px;
+	font-size :25px;
+	color : black;
+	background-color: #cccccc;
+}
+
+.buttondisp2{
+	height : 50px;
+	alignment : stretch;
+	width: 90px;
+	border: 2px solid;
+    border-radius: 8px;
+	font-size :25px;
+	color : black;
+	background-color: #767676;
+}
+#buttondisp3{
+	height : 50px;
+	alignment : stretch;
+	width: 90px;
+	border: 2px solid;
+    border-radius: 8px;
+	font-size :25px;
+	color : black;
+	background-color: red;
+}
+
+#calc{
+	border-collapse: collapse;
+	height : 5px;
+	}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+#name{
+	color : black;
+	font-size : 25px;
+}
+#name2{
+	color : black;
+	font-size : 15px;
+}
+@font-face {
+    font-family: digital;
+    src: url('digital.ttf');
+}
+
+#display-bar{
+	font-family : digital;
+	background : #93DC69;
+	font-size : 48px;
+	height : 65px;
+	border: 2px solid;
+    border-radius: 8px;
+	text-align : right;
+}
