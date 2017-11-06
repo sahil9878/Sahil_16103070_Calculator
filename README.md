@@ -2,8 +2,10 @@
 A Simple calculator made using javascript and CSS.
 
 # Instructions
-1. prerequisites : An updated web browser
+prerequisites : An updated web browser
+1. All the files should be present in the same folder.
 2. Open calculator.html
+3. Enter data through keyboard or mouse.
 
 # files
 1) bg.jpg (background image)
